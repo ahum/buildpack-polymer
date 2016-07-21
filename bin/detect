@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [ -f $1/bower.json ]; then
-  echo "Bower buildpack"
+  echo "Polymer buildpack"
 else
   echo "No bower.json"
   exit 1
